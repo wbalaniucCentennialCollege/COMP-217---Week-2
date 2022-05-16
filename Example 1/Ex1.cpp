@@ -1,5 +1,6 @@
 // Selection statements
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
@@ -8,6 +9,8 @@ int main()
 	/*
 		Prompt the user to enter a number
 		Read the number
+
+
 
 		Check if the last digit is 0 - 9
 
@@ -20,6 +23,11 @@ int main()
 
 	cout << "Please enter a number between 0 and 9: ";
 	cin >> myNumber;
+
+	// Ternary statement
+	string output = (myNumber == 0) ? "Your number is 0" : "Your number is not 0";
+
+	cout << output << endl;
 
 	switch (myNumber)
 	{
