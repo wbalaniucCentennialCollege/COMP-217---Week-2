@@ -14,12 +14,23 @@ int main()
 	}
 	*/
 
+	/*
 	unsigned int i = 1;
 
 	for ( ;i <= 100000 ; i *= 2)
 	{
 		cout << i << " ";
 	}
+
+	*/
+
+	unsigned int i = 1;
+
+	do
+	{
+		cout << i << " ";
+		i++;
+	} while (i <= 10);
 
 	cout << endl;
 
